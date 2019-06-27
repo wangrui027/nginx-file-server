@@ -16,13 +16,13 @@ docker run -d -p 80:80 --name nginx -v /data:/usr/share/nginx/html:ro wangrui027
 
 2、文件服务器启动后PWD页面会弹出映射端口，点击端口超链接访问文件服务器首页。
 
-![PWD](PWD.png)
+![PWD](https://github.com/wangrui027/nginx-file-server/raw/master/PWD.png)
 
 3、启动容器后进入宿主的`/data`目录，执行`curl`命令下载任意文件。
 
 4、回到文件服务器首页刷新页面，点击下载文件。
 
-![nginx-file-server](nginx-file-server.png)
+![nginx-file-server](https://github.com/wangrui027/nginx-file-server/raw/master/nginx-file-server.png)
 
 ## 文末
 
