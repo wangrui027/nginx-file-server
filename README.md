@@ -28,4 +28,4 @@ docker run -d -p 80:80 --name nginx -v /data:/usr/share/nginx/html:ro wangrui027
 
 ## 文末
 
-顺便说一下`PWD`网站可以顺利访问墙外资源，所以理论上利用`PWD`搭一个梯子也不是不可能。
+顺便说一下`PWD`网站可以顺利访问墙外资源，所以理论上利用`PWD`搭一个临时的梯子也不是不可能，一个实例可以使用4个小时哦，完全免费。
