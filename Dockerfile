@@ -1,4 +1,4 @@
-FROM nginx:1.16.0
+FROM nginx
 
 ARG NGINX_CONF=/etc/nginx/nginx.conf
 
