@@ -11,7 +11,7 @@
 
 ```bash
 # 挂载宿主的/data目录到nginx的html目录
-docker run -d -p 80:80 --name nginx -v /data:/usr/share/nginx/html:ro wangrui027/nginx-file-server
+docker run -d -p 80:80 --name nginx -v /data:/data:ro wangrui027/nginx-file-server
 ```
 
 2、文件服务器启动后PWD页面会弹出映射端口，点击端口超链接访问文件服务器首页。
