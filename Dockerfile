@@ -8,6 +8,7 @@ ARG NGINX_CONF=/etc/nginx/nginx.conf
 
 RUN ln -sf /usr/share/zoneinfo/Asia/Shanghai /etc/localtime \
   && echo "Asia/Shanghai" > /etc/timezone \
+  && ln -s /usr/share/nginx/html /data \
   && sed -i 's/http {/http {\n\
     charset utf-8;\n\
     autoindex on;\n\
