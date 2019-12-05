@@ -5,6 +5,8 @@
 
 ## 测试
 
+启动时请使用-v参数挂载需要下载的文件目录到容器的/data目录, 或待容器启动后使用docker cp拷贝文件到容器/data目录下
+
 建议使用 [https://labs.play-with-docker.com](https://labs.play-with-docker.com)（`PWD`）创建宿主进行镜像测试
 
 1、`docker run`启动容器，启动命令如下：
